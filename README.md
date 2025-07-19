@@ -52,3 +52,64 @@ An intelligent, self-watering plant system using NodeMCU ESP8266 and Blynk IoT. 
 
 ## 🖥️ File Structure
 
+Smart-Pot-IoT/
+├── code/
+│ └── sketch.ino # Arduino code for ESP8266
+├── simulation/
+│ ├── diagram.json # Wokwi circuit diagram (simulated on ESP32)
+│ └── wokwi-project.txt # Wokwi project info
+├── images/ # Real-world setup photos
+├── libraries.txt # Required Arduino libraries
+└── README.md # This documentation file
+
+---
+
+## 🔌 Libraries Used
+
+Adafruit GFX Library - #include <Adafruit_GFX.h>          # For OLED graphics rendering
+Adafruit SSD1306     - #include <Adafruit_SSD1306.h>      # For SSD1306 OLED display
+ESP8266 WiFi	     - #include <ESP8266WiFi.h>           # For WiFi connection of ESP
+Blynk                - #include <BlynkSimpleEsp8266.h>    # For IoT notifications and remote control (ESP8266-compatible)
+
+
+---
+
+## 🌐 Simulation
+
+> Since Wokwi doesn't support ESP8266, the circuit was simulated using ESP32:
+- [Simulate on Wokwi](https://wokwi.com)
+
+---
+
+## ⚙️ How to Run
+
+### 1. Install Libraries in Arduino IDE:
+- Adafruit SSD1306
+- Adafruit GFX
+- Blynk (ESP8266-compatible version)
+
+### 2. Upload Code:
+- Open `sketch.ino` in Arduino IDE
+- Select **Board: NodeMCU 1.0 (ESP8266)**
+- Connect and upload
+
+### 3. Configure Blynk:
+- Update `auth` token, `WiFi SSID`, and `password` in the sketch.
+- Use Blynk app with a button widget (for manual watering) and display widgets.
+
+---
+
+## 🧠 Creator
+
+**👨‍💻 Fariz PV**  
+> Passionate about IoT, automation, and building cool stuff that helps people!  
+> 🌍 [LinkedIn](https://www.linkedin.com/in/farizpv/) | 📫 farizpv1001@gmail.com
+
+---
+
+## 🪴 Inspiration
+
+> A simple step toward automating plant care and smart gardening. Because even plants deserve smart tech 😄
+
+---
+
