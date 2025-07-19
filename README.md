@@ -103,7 +103,7 @@ Blynk                - #include <BlynkSimpleEsp8266.h>    # For IoT notification
 
 **👨‍💻 Fariz PV**  
 > Passionate about IoT, automation, and building cool stuff that helps people!  
-> 🌍 [LinkedIn](https://www.linkedin.com/in/farizpv/) | 📫 farizpv1001@gmail.com
+> 🌍 [LinkedIn](https://www.linkedin.com/in/muhammed-fariz-pv-3b9a22209/) | 📫 farizpv1001@gmail.com
 
 ---
 
