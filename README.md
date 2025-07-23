@@ -1,13 +1,8 @@
 # 🌱 Smart Pot – IoT-Based Auto-Watering Plant System
 
-An intelligent, self-watering plant system using NodeMCU ESP8266 and Blynk IoT. It monitors real-time soil moisture levels and waters the plant when needed — all visible on an OLED screen and controllable via a mobile app.
+An intelligent, self-watering plant system using NodeMCU ESP8266 and Blynk IoT. 
+It monitors real-time soil moisture levels and waters the plant when needed — all visible on an OLED screen and controllable via a mobile app.
 
----
-
-## 📸 Project Showcase
-
-(docs/setup/demo1.mp4)
-(docs/setup/demo2.mp4)
 ---
 
 ## 🚀 Features
@@ -23,15 +18,15 @@ An intelligent, self-watering plant system using NodeMCU ESP8266 and Blynk IoT. 
 
 ## 🔧 Components Used
 
-| Component           | Quantity |
-|---------------------|----------|
-| NodeMCU ESP8266     | 1        |
-| M335 Soil Moisture Sensor | 1  |
-| SSD1306 OLED Display| 1        |
-| 2-Channel Relay     | 1        |
-| Mini Water Pump     | 1        |
-| 2xAA Battery Holder | 1        |
-| Breadboard + Jumper Wires | As needed |
+| Component                 | Quantity |
+|---------------------------|----------|
+| NodeMCU ESP8266           |    1     |
+| M335 Soil Moisture Sensor |    1     |
+| SSD1306 OLED Display      |    1     |
+| 2-Channel Relay           |    1     |
+| Mini Water Pump           |    1     |
+| 2xAA Battery Holder       |    1     |
+| Breadboard + Jumper Wires | As needed|
 
 ---
 
@@ -45,6 +40,8 @@ An intelligent, self-watering plant system using NodeMCU ESP8266 and Blynk IoT. 
 6. Blynk app receives push notifications and lets users:
    - Monitor live sensor data
    - Manually trigger watering
+   - Tracks Moisture level history
+   - Can track the number of times total watered and reset the count
 
 ---
 
@@ -56,7 +53,6 @@ Smart-Pot-IoT/
 ├── simulation/
 │ ├── diagram.json # Wokwi circuit diagram (simulated on ESP32)
 │ └── wokwi-project.txt # Wokwi project info
-├── images/ # Real-world setup photos
 ├── libraries.txt # Required Arduino libraries
 └── README.md # This documentation file
 
@@ -66,9 +62,9 @@ Smart-Pot-IoT/
 
 Adafruit GFX Library - #include <Adafruit_GFX.h>          # For OLED graphics rendering
 Adafruit SSD1306     - #include <Adafruit_SSD1306.h>      # For SSD1306 OLED display
-ESP8266 WiFi	     - #include <ESP8266WiFi.h>           # For WiFi connection of ESP
+ESP8266 WiFi	      - #include <ESP8266WiFi.h>           # For WiFi connection of ESP
 Blynk                - #include <BlynkSimpleEsp8266.h>    # For IoT notifications and remote control (ESP8266-compatible)
-
+EEPROM               - #include <EEPROM.h>                # For storing water count in the EEPROM memory
 
 ---
 
