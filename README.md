@@ -6,10 +6,8 @@ An intelligent, self-watering plant system using NodeMCU ESP8266 and Blynk IoT. 
 
 ## 📸 Project Showcase
 
-<p align="center">
-  <img src="docs/setup-images/demo.jpg" width="400" title="Physical Setup">
-</p>
-
+(docs/setup/demo1.mp4)
+(docs/setup/demo2.mp4)
 ---
 
 ## 🚀 Features
