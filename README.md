@@ -1,4 +1,4 @@
-# 🌱 Smart Pot – IoT-Based Auto-Watering Plant System
+# 🌱 Smart Pot – IoT-Based Auto Plant Watering System
 
 An intelligent, self-watering plant system using NodeMCU ESP8266 and Blynk IoT. 
 It monitors real-time soil moisture levels and waters the plant when needed — all displayed on an OLED screen and controllable via the Blynk IoT mobile app.
