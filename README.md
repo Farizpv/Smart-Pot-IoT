@@ -2,7 +2,7 @@
 
 An intelligent, self-watering plant system using NodeMCU ESP8266 and Blynk IoT. 
 It monitors real-time soil moisture levels and waters the plant when needed — all displayed on an OLED screen and controllable via the Blynk IoT mobile app.
-
+## Video Link : https://youtube.com/shorts/WCi2JD-hIIM?si=jTd9igGCU8lRfjJ2
 ---
 
 ## 🚀 Features
