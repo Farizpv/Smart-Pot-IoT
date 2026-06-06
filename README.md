@@ -93,7 +93,7 @@ It monitors real-time soil moisture levels and waters the plant when needed — 
 
 ## Creator
 
-** Fariz PV**   
+**Fariz PV**   
 > [LinkedIn](https://www.linkedin.com/in/muhammed-fariz-pv-3b9a22209/) | farizpv1001@gmail.com
 
 ---
