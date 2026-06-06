@@ -1,11 +1,11 @@
-# 🌱 Smart Pot – IoT-Based Auto Plant Watering System
+# Smart Pot – IoT-Based Auto Plant Watering System
 
 An intelligent, self-watering plant system using NodeMCU ESP8266 and Blynk IoT. 
 It monitors real-time soil moisture levels and waters the plant when needed — all displayed on an OLED screen and controllable via the Blynk IoT mobile app.
 ## Video Link : https://youtube.com/shorts/WCi2JD-hIIM?si=jTd9igGCU8lRfjJ2
 ---
 
-## 🚀 Features
+## Features
 
 - 🌿 Real-time soil moisture monitoring
 - 💧 Auto-watering when moisture < 40%
@@ -16,7 +16,7 @@ It monitors real-time soil moisture levels and waters the plant when needed — 
 
 ---
 
-## 🔧 Components Used
+## Components Used
 
 | Component                 | Quantity |
 |---------------------------|----------|
@@ -30,7 +30,7 @@ It monitors real-time soil moisture levels and waters the plant when needed — 
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **Soil moisture** is read via the M335 analog sensor.
 2. If moisture level < 40%, the relay triggers the water pump.
@@ -45,7 +45,7 @@ It monitors real-time soil moisture levels and waters the plant when needed — 
 
 ---
 
-## 🖥️ File Structure
+## File Structure
 
 - Smart-Pot-IoT/
 - ├── SmartPot.ino # Arduino code for ESP8266
@@ -56,7 +56,7 @@ It monitors real-time soil moisture levels and waters the plant when needed — 
 
 ---
 
-## 🔌 Libraries Used
+## Libraries Used
 
 - Adafruit GFX Library - #include <Adafruit_GFX.h>          # For OLED graphics rendering
 - Adafruit SSD1306     - #include <Adafruit_SSD1306.h>      # For SSD1306 OLED display
@@ -66,14 +66,14 @@ It monitors real-time soil moisture levels and waters the plant when needed — 
 
 ---
 
-## 🌐 Simulation
+## Simulation
 
 > Since Wokwi doesn't support ESP8266, the circuit was simulated using ESP32:
 - [Simulate on Wokwi](https://wokwi.com)
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ### 1. Install Libraries in Arduino IDE:
 - Adafruit SSD1306
@@ -91,15 +91,14 @@ It monitors real-time soil moisture levels and waters the plant when needed — 
 
 ---
 
-## 🧠 Creator
+## Creator
 
-**👨‍💻 Fariz PV**  
-> Passionate about IoT, automation, and building cool stuff that helps people!  
-> 🌍 [LinkedIn](https://www.linkedin.com/in/muhammed-fariz-pv-3b9a22209/) | 📫 farizpv1001@gmail.com
+** Fariz PV**   
+> [LinkedIn](https://www.linkedin.com/in/muhammed-fariz-pv-3b9a22209/) | farizpv1001@gmail.com
 
 ---
 
-## 🪴 Inspiration
+## Inspiration
 
 > A simple step toward automating plant care and smart gardening. Because even plants deserve smart tech 😄
 
