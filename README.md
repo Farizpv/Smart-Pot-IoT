@@ -2,7 +2,7 @@
 
 An intelligent, self-watering plant system using NodeMCU ESP8266 and Blynk IoT. 
 It monitors real-time soil moisture levels and waters the plant when needed — all displayed on an OLED screen and controllable via the Blynk IoT mobile app.
-## Video Link : https://youtube.com/shorts/WCi2JD-hIIM?si=jTd9igGCU8lRfjJ2
+### Demo Video Link : https://youtube.com/shorts/WCi2JD-hIIM?si=jTd9igGCU8lRfjJ2
 ---
 
 ## Features
@@ -47,17 +47,14 @@ It monitors real-time soil moisture levels and waters the plant when needed — 
 
 ## File Structure
 
- Smart-Pot-IoT/
- 
- ├── SmartPot.ino # Arduino code for ESP8266
- 
- ├── simulation/
- 
-    ├── circuit.png # Wokwi circuit diagram (simulated on ESP32)
-    
- ├── libraries.txt # Required Arduino libraries
- 
- └── README.md # This documentation file
+```
+Smart-Pot-IoT/
+├── SmartPot.ino        # Arduino code for ESP8266
+├── simulation/
+│   └── circuit.png     # Wokwi circuit diagram (simulated on ESP32)
+├── libraries.txt       # Required Arduino libraries
+└── README.md           # This documentation file
+```
 
 ---
 
