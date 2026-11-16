@@ -48,10 +48,15 @@ It monitors real-time soil moisture levels and waters the plant when needed — 
 ## File Structure
 '''
  Smart-Pot-IoT/
+ 
  ├── SmartPot.ino # Arduino code for ESP8266
+ 
  ├── simulation/
+ 
     ├── circuit.png # Wokwi circuit diagram (simulated on ESP32)
+    
  ├── libraries.txt # Required Arduino libraries
+ 
  └── README.md # This documentation file
 '''
 ---
