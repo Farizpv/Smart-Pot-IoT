@@ -18,9 +18,9 @@ Adafruit_SSD1306 display(OLED_WIDTH, OLED_HEIGHT, &Wire, -1);
 const int moisturePin = A0;
 const int relayPin = D6;
 
-char auth[] = "asDRIDQY8DgI_YA2EKpiJ2HZxa79l658";
-char ssid[] = "TP-LINK_61B9";
-char pass[] = "16786653";
+char auth[] = "YOUR_BLYNK_AUTH_TOKEN";
+char ssid[] = "YOUR_NETWORK_SSID";
+char pass[] = "YOUR_NETWORK_PASSWORD";
 
 const unsigned long wateringDelay = 10UL * 60UL * 1000UL; //10 minutes
 unsigned long lastWatered=0;
