@@ -46,14 +46,14 @@ It monitors real-time soil moisture levels and waters the plant when needed — 
 ---
 
 ## File Structure
-
-- Smart-Pot-IoT/
-- ├── SmartPot.ino # Arduino code for ESP8266
-- ├── simulation/
--    ├── circuit.png # Wokwi circuit diagram (simulated on ESP32)
-- ├── libraries.txt # Required Arduino libraries
-- └── README.md # This documentation file
-
+'''
+ Smart-Pot-IoT/
+ ├── SmartPot.ino # Arduino code for ESP8266
+ ├── simulation/
+    ├── circuit.png # Wokwi circuit diagram (simulated on ESP32)
+ ├── libraries.txt # Required Arduino libraries
+ └── README.md # This documentation file
+'''
 ---
 
 ## Libraries Used
@@ -81,7 +81,7 @@ It monitors real-time soil moisture levels and waters the plant when needed — 
 - Blynk (ESP8266-compatible version)
 
 ### 2. Upload Code:
-- Open `sketch.ino` in Arduino IDE
+- Open `SmartPot.ino` in Arduino IDE
 - Select **Board: NodeMCU 1.0 (ESP8266)**
 - Connect and upload
 
@@ -93,8 +93,8 @@ It monitors real-time soil moisture levels and waters the plant when needed — 
 
 ## Creator
 
-**Fariz PV**   
-> [LinkedIn](https://www.linkedin.com/in/muhammed-fariz-pv-3b9a22209/) | farizpv1001@gmail.com
+**Muhammed Fariz Palli Valappil**   
+> [LinkedIn](https://www.linkedin.com/in/muhammed-fariz-pv/)
 
 ---
 
